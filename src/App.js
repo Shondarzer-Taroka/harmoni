@@ -1,15 +1,17 @@
 
-import Navbar from './components/Homepage/NavBar';
+
 import { Outlet } from 'react-router-dom';
 
 import HomePage from './components/Homepage/HomePage';
+import Navbar from './Header/NavBar';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
     <div>
       <Navbar />
-      <HomePage />
       <Outlet />
+      <Footer/>
     </div>
   );
 }
