@@ -267,17 +267,6 @@ const SearchInput = () => {
                     ))}
                 </ul>
             )}
-
-            {/* Display selected category message */}
-            {!isLoading && (
-                <div className="mt-2 text-sm text-green-600">
-                    {selectedCategory ? (
-                        <>Showing results for <strong>{selectedCategory}</strong></>
-                    ) : (
-                        <>Showing <strong>all products</strong></>
-                    )}
-                </div>
-            )}
         </div>
     );
 };
