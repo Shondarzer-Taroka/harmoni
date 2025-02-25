@@ -19,7 +19,7 @@ This is a React-based product search application with category filtering, built 
    git clone https://github.com/Shondarzer-Taroka/harmoni
    cd harmoni
 
-2. **Install dependencies**  
+2. **Install dependencies and start project**  
 ```bash
 npm install
 npm start
