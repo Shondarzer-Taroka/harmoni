@@ -2,7 +2,7 @@ import React from 'react';
 
 const PromoBanner = () => {
   return (
-    <div className="bg-black text-white h-full lg:h-[300px] flex items-center justify-start p-4 lg:px-16">
+    <div className="bg-black text-white h-full lg:h-[300px] flex items-center justify-start p-4 lg:px-16 my-5">
       <div className="text-left ">
         <h1 className="text-4xl font-bold mb-4">Discover Your Next Favorite Item</h1>
         <p className="text-lg mb-6">

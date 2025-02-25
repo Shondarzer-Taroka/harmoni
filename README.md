@@ -22,9 +22,4 @@ This is a React-based product search application with category filtering, built 
 2. **Install dependencies**  
 ```bash
 npm install
-
-
-3. **Start  project**
-
-```bash 
 npm start

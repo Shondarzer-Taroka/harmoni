@@ -21,7 +21,7 @@ const features = [
 
 const FeatureProductHarmoni = () => {
   return (
-    <div className="w-full py-12 border-t">
+    <div className="w-full py-12 border-t my-11">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         {features.map((feature, index) => (
           <div key={index} className="text-center">
