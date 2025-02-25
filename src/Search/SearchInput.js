@@ -245,7 +245,7 @@ const SearchInput = () => {
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
                     disabled={isLoading}
-                    className={`px-4 w-[240px] py-2 rounded-full text-black placeholder-black focus:outline-none placeholder:opacity-35 ${isLoading ? 'opacity-50 cursor-not-allowed' : ''}`}
+                    className={`px-4 w-full md:w-[240px] py-2 rounded-full text-black placeholder-black focus:outline-none placeholder:opacity-35 ${isLoading ? 'opacity-50 cursor-not-allowed' : ''}`}
                 />
                 {isLoading ? (
                     <Loader className="absolute right-3 text-black animate-spin" size={20} />
